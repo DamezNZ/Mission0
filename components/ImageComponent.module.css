@@ -1,0 +1,25 @@
+/* ===== Container ===== */
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    
+   
+   
+}
+
+
+.imageComponent {
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    
+}
+
+.imageComponent:hover {
+    color: red;
+    
+
+}

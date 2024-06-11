@@ -1,0 +1,77 @@
+/* ===== Main container ====== */
+
+.container {
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10%;
+    
+}
+
+
+
+/* ===== Home Button Image ====== */
+
+.homeButton {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: none;
+    background-color: white;
+    max-width: 32%;
+    min-width: 25%;
+    margin-right: 25%;
+    padding: 10px;
+    
+}
+
+/* ===== Nav Buttons ===== */
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    /* display: inline-block; */
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+    text-decoration: none;
+    
+    
+    font-size: 1.5rem;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    
+}
+
+nav ul li a:hover {
+    color: red;
+    text-shadow: 0 0 35px red;
+}
+
+/* ===== login Button ===== */
+
+.loginButton {
+    padding:10px 20px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    text-shadow: 0 0 35px black;
+    
+}
+
+.loginButton:hover {
+    color: red;
+    text-shadow: 0 0 35px red;
+}

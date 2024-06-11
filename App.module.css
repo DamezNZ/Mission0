@@ -1,0 +1,45 @@
+/* ====== Import Fonts ====== */
+
+@font-face {
+    font-family: "starJedi";
+    src: local("Starjedi"), url("fonts/Starjedi.ttf") format("truetype");
+    
+}
+
+/* ====== CSS Reset ====== */
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    box-sizing: border-box;
+}
+* {
+  
+    font-family: "starJedi", sans-serif;
+    color: black;
+}
+
+
+/* ===== Page Container ===== */
+
+.container {
+
+}
+
+/*  ---------------- Media Aspect ratios----------------- */
+@media (min-aspect-ratio: 16/9){
+    html{
+        width: 100%;
+        height: auto;
+
+    }
+}
+@media (max-aspect-ratio: 16/9){
+    html{
+        width: auto;
+        height: 100%;
+
+    }
+}
